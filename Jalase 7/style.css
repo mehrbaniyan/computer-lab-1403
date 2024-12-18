@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.boxes div.my-text {
+    color: green;
+    background-color: rgb(255, 255, 80);
+    border: 2px solid rgb(0, 0, 0);
+    outline: 5px solid red;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    display: inline-block;
+    width: 300px;
+}
+
+.imp {
+    color: red;
+}
+
+.black-border {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.black-border > div {
+    padding: 0;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    padding: 15px;
+}
+
+.menu a.active {
+    color: green;
+}
+

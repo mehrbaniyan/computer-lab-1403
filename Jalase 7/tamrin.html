@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CW 2</title>
+    <style>
+        .red_text {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">Username <span class="red_text" >*</span></label> <br>
+            <input type="text" name="username" id="username" placeholder="enter your username..." required>
+        </div>
+        <div>
+            <label for="password">Password <span class="red_text">*</span></label> <br>
+            <input type="password" name="password" id="password" placeholder="enter your password..." required>
+        </div>
+        <div>
+            <input type="checkbox" name="rem_me" id="rem_me">
+            <label for="rem_me">Remember me.</label> 
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

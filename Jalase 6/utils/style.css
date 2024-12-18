@@ -1,0 +1,36 @@
+h1 {
+    color: blue!important;
+    width: 100px;
+    display: block;
+}
+
+p#para1 {
+    color: green;
+}
+
+p.para {
+    color:brown;
+}
+
+div.para {
+    color: red;
+}
+
+div.matn {
+    background: yellow;
+}
+
+.matn {
+    color: red;
+}
+
+.matn  {
+    color: blue;
+}
+ 
+
+.highlight {
+    color: red;
+    background-color: yellow;
+    display: inline;
+}
