@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+    font-family: IRANYekan;
+}
+
+.menu {
+    background-color: black;
+    padding: 5px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 10px;
+    /* margin: 0 10px; */
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.menu .active {
+    color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.boxes div {
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 10px 0;
+    /* margin: 10px 0 5px 0; */
+    width: 100px;
+    color: white;
+    padding: 5px 10px;
+    /* padding: 10px 0 10px 0; */
+    border: 5px solid #000;
+    outline: 3px dotted brown;
+    text-align: center;
+    /* margin: 10px auto; */
+    float: left;
+    clear: left;
+}
+
+.my-para {
+    line-height: 30px;
+    letter-spacing: 10px;
+}
