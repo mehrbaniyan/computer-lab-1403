@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    background-color: black;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    color: white;
+}
+
+.menu .active {
+    background-color: yellowgreen;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+
+    .red {
+        background-color: green;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+  }
