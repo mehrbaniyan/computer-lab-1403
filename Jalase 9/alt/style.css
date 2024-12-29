@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.head-menu {
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    background-color: black;
+    /* width: 100%; */
+}
+
+.head-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head-menu li {
+    display: inline-block;
+    /* background-color: red;
+    padding: 10px; */
+}
+
+.head-menu li a {
+    display: inline-block;
+    /* background-color: green; */
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    /* transition: all 1s ease-out 1s; */
+    transition: all 1s linear 1s;
+}
+
+.head-menu li a:hover {
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+
+.head-menu li a:visited {
+    background-color: red;
+}
+
+.support-link {
+    background: #757575;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.support-link img {
+    width: 40px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.boxes {
+    background-color: goldenrod;
+    width: 300px;
+    height: 200px;
+    /* position: relative; */
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.red {
+    background-color: red;
+    /* padding: 10px; */
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.new-red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: end;
+    height: 100vh;
+}
