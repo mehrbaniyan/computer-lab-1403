@@ -1,5 +1,8 @@
+
 body, html {
     margin: 0;
+    padding:0;
+    box-sizing: border-box;
     direction: rtl;
     text-align: right;
     font-family: IRANYekan;
@@ -7,7 +10,8 @@ body, html {
 
 .menu {
     background-color: black;
-    padding: 5px;
+    height: 45px;
+   position: relative;
 }
 
 .menu ul {
@@ -18,7 +22,7 @@ body, html {
 
 .menu li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 15px 10px;
     /* margin: 0 10px; */
 }
 
@@ -31,6 +35,19 @@ body, html {
     color: greenyellow;
 }
 
+.menu #search{
+    position: absolute;
+    top:10px;
+    left:75px;
+ 
+}
+
+.menu #button{
+    position: absolute;
+    top:10px;
+    left:5px;
+ 
+}
 .red {
     background-color: red;
 }
@@ -52,8 +69,9 @@ body, html {
     color: white;
     padding: 5px 10px;
     /* padding: 10px 0 10px 0; */
-    border: 5px solid #000;
-    outline: 3px dotted brown;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: 3px double brown;
     text-align: center;
     /* margin: 10px auto; */
     float: left;
