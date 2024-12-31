@@ -1,0 +1,14 @@
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+
+/* .boxes .red:first-of-type {
+.boxes .red:first-child { */
+.boxes .red:nth-child(1) {
+    background-color: blue;
+    width: 200px;
+}

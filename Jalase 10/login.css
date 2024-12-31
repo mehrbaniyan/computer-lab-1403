@@ -1,0 +1,131 @@
+body, html, * {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    background: rgb(2,0,36);
+    background: linear-gradient(125deg, rgba(2,0,36,1) 0%, rgba(99,82,236,1) 0%, rgba(190,105,198,1) 100%);
+    font-family: IRANYekan;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    direction: rtl;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 850px;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px 0 #00000047;
+}
+
+.intro {
+    background-image: url(./bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fdfcf7;
+    width: 60%;
+    border-radius: 0 15px 15px 0;
+    position: relative;
+}
+
+.intro .content {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+}
+
+.intro h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.intro .bg-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff58;
+    border-radius: 0 15px 15px 0;
+}
+
+.login-form {
+    text-align: center;
+    width: 40%;
+    color: #7365af;
+    padding: 125px 0;
+}
+
+.login-form h3 {
+    margin-bottom: 15px;
+}
+
+.form-fields {
+    margin-bottom: 10px;
+    padding: 0 45px;
+}
+
+.form-fields input {
+    background-color: #a296d8;
+    border: 0;
+    padding: 10px 5px;
+    border-radius: 100px;
+    color: white;
+    width: 100%;
+}
+
+.form-fields input::placeholder {
+    color: #ffffffce;
+    font-family: IRANYekan;
+    font-size: 12px;
+}
+
+.form-meta {
+    font-size: 12px;
+    text-align: right;
+    padding: 0 45px;
+    margin: 15px 0;
+}
+
+.form-meta a {
+    color:#7365af;
+    text-decoration: none;
+    float: left;
+}
+
+.form-meta input {
+    position: relative;
+}
+
+.form-meta input:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+}
+
+.login-btn {
+    background: rgb(2,0,36);
+    background: linear-gradient(-125deg, rgba(2,0,36,1) 0%, rgba(99,82,236,1) 0%, rgba(190,105,198,1) 100%);
+    font-family: IRANYekan;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 45px;
+    border: 0;
+    border-radius: 100px;
+}
